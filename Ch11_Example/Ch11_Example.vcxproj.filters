@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ch11_Using_Arrays_Example.cpp">
+    <ClCompile Include="Ch11_Struct_Array_Example.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
