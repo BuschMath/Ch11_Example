@@ -19,7 +19,9 @@ int main()
 		for (int j = 0; j < numCols; j++)
 		{
 			i_array[i][j] = i + j;
+			cout << i_array[i][j] << " ";
 		}
+		cout << endl;
 	}
 
 	double arrayRowSum[numRows];
@@ -44,7 +46,7 @@ int main()
 	}
 
 	double arrayColSum[numCols];
-	ColSum(d_array, arrayColSum);
+	ColSum(i_array, arrayColSum);
 
 	return 0;
 }
